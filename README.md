@@ -39,15 +39,13 @@ Google AI (Gemma 4) is integrated into the `detect-specifications` API route. Wh
 [Link of the github repository](https://github.com/anfalmohammedrie/herbologist.git)
 
 ## Proof of Google AI Usage
-Include it in the `/proofs` folder.
+Included in the `/proof` folder.
 
 ## Screenshots
-Add project screenshots in `/screenshots` folder.
-
----
+Added project screenshots in `/screenshots` folder.
 
 ## Demo Video
-Upload your demo video to Google Drive and paste the shareable link here(max 3 minutes). [Watch Demo](https://example.com/demo-video)
+ [Watch Demo](https://example.com/demo-video)
 
 ---
 
