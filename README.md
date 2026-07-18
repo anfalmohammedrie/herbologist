@@ -1,5 +1,8 @@
 # AI Herbology Web Application
 
+# PLEASE NOTE THAT THE LOCAL HOST VERSION WONT ACCESS DATABASES OF THE SPICES SO MANY OPTIONS MAY SEEM MISSING
+# ACCESS THIS LINK TO GET THE COMPLETE WORKING ONE : [(https://lovely-manatee-70ca5b.netlify.app/marketplace)]
+
 ## Problem Statement
 The spice and herb trade often suffers from a lack of standardized, transparent quality verification. Farmers and traders struggle to prove the premium quality of their produce, while buyers face uncertainty regarding the actual chemical and visual specifications of the herbs they purchase. There is a need for an automated, AI-driven system that can audit botanical samples and provide a verified quality score based on visual and chemical data.
 
@@ -85,3 +88,4 @@ How to run your project
    npm run dev
    ```
    Open [http://localhost:3000](http://localhost:3000) in your browser.
+   
