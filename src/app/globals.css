@@ -1,0 +1,117 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    @apply bg-[#0f170f] text-gray-200 font-sans transition-colors duration-300;
+  }
+}
+
+/* Light Mode Overrides for Botanical Theme */
+html.light body {
+  background-color: #f3f8f3 !important;
+  color: #142e18 !important;
+}
+
+html.light .bg-\[\#1a261a\],
+html.light .bg-\[\#162217\],
+html.light .bg-\[\#142215\],
+html.light .bg-\[\#142415\],
+html.light .bg-\[\#122314\],
+html.light .bg-\[\#1a241b\] {
+  background-color: #ffffff !important;
+  border-color: #10b981 !important;
+  color: #064e3b !important;
+  box-shadow: 0 10px 25px -5px rgba(0, 100, 0, 0.08), 0 8px 10px -6px rgba(0, 100, 0, 0.04);
+}
+
+html.light .bg-\[\#0f170f\],
+html.light .bg-\[\#0d160e\],
+html.light .bg-\[\#0d180e\],
+html.light .bg-\[\#0a180b\],
+html.light .bg-black\/20,
+html.light .bg-black\/30,
+html.light .bg-black\/40,
+html.light .bg-black\/50 {
+  background-color: #edf7ed !important;
+  border-color: #6ee7b7 !important;
+  color: #064e3b !important;
+}
+
+html.light input:not([type="checkbox"]):not([type="radio"]),
+html.light select,
+html.light textarea {
+  background-color: #f7fcf7 !important;
+  color: #064e3b !important;
+  border-color: #10b981 !important;
+}
+
+html.light input::placeholder,
+html.light textarea::placeholder {
+  color: #4b5563 !important;
+}
+
+html.light option {
+  background-color: #ffffff !important;
+  color: #064e3b !important;
+}
+
+html.light .text-white {
+  color: #062c12 !important;
+}
+
+html.light .text-gray-200,
+html.light .text-gray-300,
+html.light .text-gray-400,
+html.light .text-gray-500 {
+  color: #234e28 !important;
+}
+
+html.light .border-green-900,
+html.light .border-green-950,
+html.light .border-green-800,
+html.light .border-green-900\/60,
+html.light .border-green-900\/80,
+html.light .border-green-900\/50,
+html.light .border-white\/10 {
+  border-color: #a7f3d0 !important;
+}
+
+html.light .bg-green-950 {
+  background-color: #d1fae5 !important;
+  color: #065f46 !important;
+}
+
+html.light footer {
+  background-color: #e2f0e2 !important;
+  border-color: #a7f3d0 !important;
+  color: #274d2b !important;
+}
+
+@keyframes pulse-green {
+  0% { box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.7); }
+  70% { box-shadow: 0 0 0 15px rgba(16, 185, 129, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(16, 185, 129, 0); }
+}
+
+.animate-pulse-green {
+  animation: pulse-green 2s infinite;
+}
+
+.botanical-gradient {
+  background: linear-gradient(135deg, #163a18, #0a1f0c);
+}
+
+.slide-up-fade-in {
+  animation: slideUpFadeIn 0.6s ease-out forwards;
+}
+
+@keyframes slideUpFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
